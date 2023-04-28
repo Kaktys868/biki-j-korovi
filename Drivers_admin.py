@@ -36,7 +36,7 @@ class Driver:
 
     def info(self, update, context):
         if self.prov(update):
-            if get_name(update, Person) != 'RayGammi':
+            if get_name(update, Person) != 'Kirya_True':
                 return
             print(get_name(update, Person))
             for i in self.game_basic.INFO.pairs:
